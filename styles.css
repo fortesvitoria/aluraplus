@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --branco-principal: #FFFFFF;
+    --branco-secundario: #f9f9f9;
+    --cinza-secundario: #c0c0c0;
+    --btn-azul: #167df7;
+    --cor-fundo: #000000;
+    --preto-secundario:#2c2b2b;
+    --btn--azul-secundario:#6baaf7;
+
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.principal {
+
+    align-items: center;
+    text-align: center;
+
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.container__btn {
+    background-color: var(--btn-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.container__btn:hover {
+    background-color: var(--btn--azul-secundario);
+    color: var(--branco-principal);
+}
+
+.btn_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.btn_secundario:hover {
+    background-color: var(--preto-secundario);
+}
+
+.container__aviso {
+    color: var(--cinza-secundario);
+    font-size: 12px;
+    margin: 1.5em 0;
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__img {
+    margin: 1em 0 2em 0;
+}
+
+.container__div {
+    margin: 0 6em;
+}
+
+.secundario__img {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    font-size: 16px;
+    margin: 0 5em;
+}
+
+.descricao__titulo {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--branco-secundario);
+    margin-bottom: 1.5em;
+    
+}
+
+.container__descricao {
+    margin-right: 6em;
+}
+
+.btn_pequeno {
+    text-align: center;
+    width: 168px;
+}
+
+.dispositivos {
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 6em 0;
+    font-size: 32px;
+}
+
+.texto_dispositivos {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.footer__links {
+    padding: 0 1em;
+    text-decoration: none;
+}
